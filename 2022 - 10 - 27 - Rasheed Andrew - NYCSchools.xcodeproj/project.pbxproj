@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CCE9F329944DCB00AAF682 /* SchoolDirectoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCE9F229944DCB00AAF682 /* SchoolDirectoryView.swift */; };
+		18CCE9F529944E3800AAF682 /* SchoolDirectoryDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCE9F429944E3800AAF682 /* SchoolDirectoryDetailedView.swift */; };
+		18CCE9F729944ED300AAF682 /* NYCShool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCE9F629944ED300AAF682 /* NYCShool.swift */; };
+		18CCE9F929944EE400AAF682 /* SATScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCE9F829944EE400AAF682 /* SATScores.swift */; };
+		18CCE9FB29944F5100AAF682 /* ConstantUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCE9FA29944F5100AAF682 /* ConstantUrl.swift */; };
 		18F58AB7290B110000AE750F /* _022___10___27___Rasheed_Andrew___NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F58AB6290B110000AE750F /* _022___10___27___Rasheed_Andrew___NYCSchoolsApp.swift */; };
-		18F58AB9290B110000AE750F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F58AB8290B110000AE750F /* ContentView.swift */; };
 		18F58ABB290B110200AE750F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F58ABA290B110200AE750F /* Assets.xcassets */; };
 		18F58ABE290B110200AE750F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F58ABD290B110200AE750F /* Preview Assets.xcassets */; };
 		18F58ACB290B2CEA00AE750F /* SchoolDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F58ACA290B2CEA00AE750F /* SchoolDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18CCE9F229944DCB00AAF682 /* SchoolDirectoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDirectoryView.swift; sourceTree = "<group>"; };
+		18CCE9F429944E3800AAF682 /* SchoolDirectoryDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDirectoryDetailedView.swift; sourceTree = "<group>"; };
+		18CCE9F629944ED300AAF682 /* NYCShool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NYCShool.swift; path = "2022 - 10 - 27 - Rasheed Andrew - NYCSchools/Views/NYCShool.swift"; sourceTree = SOURCE_ROOT; };
+		18CCE9F829944EE400AAF682 /* SATScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SATScores.swift; path = "2022 - 10 - 27 - Rasheed Andrew - NYCSchools/Views/SATScores.swift"; sourceTree = SOURCE_ROOT; };
+		18CCE9FA29944F5100AAF682 /* ConstantUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConstantUrl.swift; path = "2022 - 10 - 27 - Rasheed Andrew - NYCSchools/Views/ConstantUrl.swift"; sourceTree = SOURCE_ROOT; };
 		18F58AB3290B110000AE750F /* 2022 - 10 - 27 - Rasheed Andrew - NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2022 - 10 - 27 - Rasheed Andrew - NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F58AB6290B110000AE750F /* _022___10___27___Rasheed_Andrew___NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_022___10___27___Rasheed_Andrew___NYCSchoolsApp.swift"; sourceTree = "<group>"; };
-		18F58AB8290B110000AE750F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18F58ABA290B110200AE750F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F58ABD290B110200AE750F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18F58ACA290B2CEA00AE750F /* SchoolDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDirectory.swift; sourceTree = "<group>"; };
@@ -34,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18CCE9F129944DB200AAF682 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18CCE9F229944DCB00AAF682 /* SchoolDirectoryView.swift */,
+				18CCE9F429944E3800AAF682 /* SchoolDirectoryDetailedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		18F58AAA290B110000AE750F = {
 			isa = PBXGroup;
 			children = (
@@ -54,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				18F58AB6290B110000AE750F /* _022___10___27___Rasheed_Andrew___NYCSchoolsApp.swift */,
-				18F58AB8290B110000AE750F /* ContentView.swift */,
+				18CCE9F129944DB200AAF682 /* Views */,
 				18F58AC5290B16A300AE750F /* ViewModels */,
 				18F58AC4290B14E200AE750F /* Models */,
 				18F58ABA290B110200AE750F /* Assets.xcassets */,
@@ -74,6 +91,9 @@
 		18F58AC4290B14E200AE750F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				18CCE9F629944ED300AAF682 /* NYCShool.swift */,
+				18CCE9F829944EE400AAF682 /* SATScores.swift */,
+				18CCE9FA29944F5100AAF682 /* ConstantUrl.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -156,9 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F58AB9290B110000AE750F /* ContentView.swift in Sources */,
+				18CCE9FB29944F5100AAF682 /* ConstantUrl.swift in Sources */,
+				18CCE9F329944DCB00AAF682 /* SchoolDirectoryView.swift in Sources */,
 				18F58AB7290B110000AE750F /* _022___10___27___Rasheed_Andrew___NYCSchoolsApp.swift in Sources */,
 				18F58ACB290B2CEA00AE750F /* SchoolDirectory.swift in Sources */,
+				18CCE9F729944ED300AAF682 /* NYCShool.swift in Sources */,
+				18CCE9F929944EE400AAF682 /* SATScores.swift in Sources */,
+				18CCE9F529944E3800AAF682 /* SchoolDirectoryDetailedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
